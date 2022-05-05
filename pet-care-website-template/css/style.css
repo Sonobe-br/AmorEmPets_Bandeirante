@@ -56,7 +56,8 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 .logo {
 
   position: relative;
-  top: 30px;
+  top: 28px;
+  left: 33px;
   padding: 10px;
   margin: 10px;
 
