@@ -1,7 +1,7 @@
 (function ($) {
     "use strict";
     
-    // Dropdown on mouse hover
+    // Dropdown no mouse hover
     $(document).ready(function () {
         function toggleNavbarMethod() {
             if ($(window).width() > 992) {
@@ -19,7 +19,7 @@
     });
     
     
-    // Back to top button
+    // Voltar para o top
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
             $('.back-to-top').fadeIn('slow');
