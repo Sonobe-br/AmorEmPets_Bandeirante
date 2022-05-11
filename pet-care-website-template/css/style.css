@@ -56,10 +56,20 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 .logo {
 
   position: relative;
-  top: 28px;
+  top: 50px;
+  margin-top: 20%;
   left: 33px;
   padding: 10px;
   margin: 10px;
+  float: left;
+
+}
+
+.patinhas1 {
+
+  position:relative;
+  margin-top: -8%;
+  z-index: -1; 
 
 }
 
@@ -9810,6 +9820,8 @@ h6 {
 
 .team:hover .team-text {
   bottom: 100px;
+  transition: 1s ease-in-out;
+  background: #4F95DA;
 }
 
 .team .team-social {
@@ -9823,6 +9835,8 @@ h6 {
 
 .team:hover .team-social {
   bottom: 0;
+  transition: 1s ease-in-out;
+  background: #4F95DA;
 }
 
 .testimonial-carousel .owl-dots {

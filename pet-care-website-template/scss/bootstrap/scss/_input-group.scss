@@ -75,11 +75,34 @@
   .btn {
     position: relative;
     z-index: 2;
-
-    &:focus {
-      z-index: 3;
+    outline: none;
+    transition: 1s ease-in-out;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+    
+      &:focus {
+      z-index: 5;
     }
+
   }
+
+  .btn:hover {
+
+  transition: 0.5 ease-in-out;
+  background: #4F95DA;
+  
+}
+
+.btn span {
+
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+  
+}
 
   .btn + .btn,
   .btn + .input-group-text,
